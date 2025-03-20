@@ -25,12 +25,15 @@
 
 import FooterSec from "./components/footer/Footer.js";
 import Header1 from "./components/header/Header.js";
+import Hero from "./components/hero/Hero.js";
 import "./App.css"
 function App(){
   return (
     <div>
       <Header1/>
+      <Hero/>
       <FooterSec/>
+
     </div>
   )
 }
